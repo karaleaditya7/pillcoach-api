@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "signalr1": {
+      "ignored": "true",
+      "suggestion": "true",
+      "type": "signalr",
+      "connectionId": ""
+    },
+    "storage1": {
+      "ignored": "true",
+      "suggestion": "true",
+      "type": "storage",
+      "connectionId": "ConnectionStrings:AzureBlobStorage"
+    },
+    "mssql1": {
+      "secretStore": "AzureAppSettings",
+      "type": "mssql.onprem",
+      "connectionId": "ConnectionStrings:ConnStr"
+    }
+  }
+}
